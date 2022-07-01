@@ -1,0 +1,56 @@
+html {
+    background-image: radial-gradient(at bottom, rgb(0, 0, 0), rgb(34, 36, 35));
+    height: 100%;
+    width: 100%;
+}
+body {
+    text-align: center;
+    color: gold;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+input {
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background: transparent;
+    color: gold;
+    padding: 20px;
+}
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+    border-color: gold;
+  }
+  .ripple:hover {
+    background: gold radial-gradient(circle, transparent 1%, gold 1%) center/15000%;
+    color: black;
+    border-color: transparent;
+  }
+  .ripple:active {
+    background-color: #d4d101;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+  /* Button style */
+  button {
+    border: none;
+    border-radius: 2px;
+    padding: 12px 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: gold;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+  }
+  h1 {
+      font-family: sans-serif;
+  }
+  hr {
+      border-color: rgb(189, 160, 0);
+  }
